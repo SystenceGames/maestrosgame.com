@@ -1,0 +1,74 @@
+#second {
+  height: auto;
+  padding-bottom: 20px;
+}
+li {
+  list-style-type: square;
+}
+#terms {
+  width: 66%;
+  font-size: 1.2em;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 5%;
+}
+div h1, div h3 {
+  font-family: seilssans;
+  letter-spacing: 0.1em;
+}
+div h1 {
+  text-align: center;
+  font-size: 5.0em;
+  margin-bottom: 35px;
+}
+div h3 {
+  font-size: 2.5em;
+  margin-bottom: 25px;
+}
+#terms li {
+  font-size: 0.9em;
+  font-style: italic;
+  margin-bottom: 15px;
+  line-height: 1.8em;
+}
+#terms a {
+  color: inherit;
+  text-decoration: underline;
+}
+#terms a:hover {
+  color: #ff0000;
+}
+p {
+  line-height: 1.6em;
+}
+form {
+  display: block;
+  text-align: center;
+  font-family: seilssans;
+  font-size: 2em;
+}
+input, textarea {
+  display: block;
+  margin: auto auto 18px auto;
+  border: 1px solid transparent;
+  padding: 7px;
+  border-radius: 25px;
+}
+button {
+  padding: 5px 25px;
+  background-color: #f0ad4e;
+  box-shadow: inset 1px 1px rgba(255,255,255,0.1),1px 1px rgba(0,0,0,0.1);
+  border: 1px solid rgba(0,0,0,0.53);
+  border-radius: 8px;
+}
+textarea {
+  width: 70%;
+}
+label {
+  display: block;
+}
+@media only screen and (max-width: 600px) {
+  textarea {
+    width: 70%;
+  }
+}

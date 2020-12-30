@@ -1,0 +1,47 @@
+body {
+	font-family: 'Montserrat', sans-serif;
+}
+
+.navbar {
+   background-color: transparent;
+   background: transparent;
+   border-color: transparent;
+}
+
+.navbar-default .navbar-nav li a {
+	color: white;
+	font-family: Helvetica;
+	text-transform: uppercase;
+	padding-top: 1.5em;
+	text-shadow: 1px 1px #000000;
+	font-size: 1.3em;
+}
+
+ul.nav a:hover { 
+	color: #fff !important; 
+}
+
+video#bgvid {
+	position: fixed;
+	top: 50%;
+	left: 50%;
+	min-width: 100%;
+	min-height: 100%;
+	width: auto;
+	height: auto;
+	z-index: -100;
+	-webkit-transform: translateX(-50%) translateY(-50%);
+	transform: translateX(-50%) translateY(-50%);
+}
+
+.page-header {
+    color: white;
+    text-shadow: 1px 1px #000000;
+    border: none;
+	transform: translateY(150%);
+}
+
+h1 small {
+    color: white;
+    text-shadow: 1px 1px #000000;
+}

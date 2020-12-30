@@ -1,0 +1,391 @@
+@font-face {
+	font-family: SeilsSans;
+	src: url(../fonts/SEILS_SANS_ITALIC.eot),
+			url(../fonts/SEILS_SANS_ITALIC.woff),
+			url(../fonts/SEILS_SANS_ITALIC.ttf),
+			url(../fonts/SEILS_SANS_ITALIC.eot);
+}
+
+@font-face {
+    font-family: SecondaryFont;
+    src: url(../fonts/big_noodle_titling.ttf);
+    font-size: 7rem;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 1.0625em;
+}
+
+body {
+  background-color: white;
+  font-family: Montserrat, sans-serif;
+  font-weight: 400;
+  line-height: 1.45;
+  color: #333;
+  width: 100%;
+}
+
+hr {
+    border: 0;
+    height: 1px;
+    width: 100px;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+  }
+
+/* BEGIN Grid classes */
+
+.f-container {
+    width: 100%;
+    margin: 0 auto;
+}
+
+.f-row {
+    display: flex;
+    flex-direction: row;
+}
+
+.f-col {
+    display: flex;
+    flex-direction: column;
+}
+
+f.row--reverse {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+f.col--reverse {
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+.text--left {
+    text-align: left;
+}
+
+.text--right {
+    text-align: right;
+}
+
+.text--center {
+    text-align: center;
+}
+
+.f--align-start {
+    align-items: flex-start;
+}
+
+.f--align-center {
+    align-items: center;
+}
+
+.f--align-end {
+    align-items: flex-end;
+}
+
+.f--align-baseline {
+    align-items: baseline;
+}
+
+.f--align-stretch {
+    align-items: stretch;
+}
+
+.f--justify-start {
+    justify-content: flex-start;
+}
+
+.f--justify-center {
+    justify-content: center;
+}
+
+.f--justify-end {
+    justify-content: flex-end;
+}
+
+.f--justify-between {
+    justify-content: space-between;
+}
+
+.f--justify-around {
+    justify-content: space-around;
+}
+
+.f--justify-evenly {
+    justify-content: space-evenly;
+}
+
+.f-col--1 {
+    width: 8.33333%;
+    flex: none;
+}
+
+.f-col--2 {
+    width: 16.66667%;
+    flex: none;
+}
+
+.f-col--3 {
+    width: 25%;
+    flex: none;
+}
+
+.f-col--4 {
+    width: 33.33337%;
+    flex: none;
+}
+
+.f-col--5 {
+    width: 41.66667%;
+    flex: none;
+}
+
+.f-col--6 {
+    width: 50%;
+    flex: none;
+}
+
+.f-col--7 {
+    width: 58.33333%;
+    flex: none;
+}
+
+.f-col--8 {
+    width: 66.66667%;
+    flex: none;
+}
+
+.f-col--9 {
+    width: 75%;
+    flex: none;
+}
+
+.f-col--10 {
+    width: 83.33333%;
+    flex: none;
+}
+
+.f-col--11 {
+    width: 91.66667%;
+    flex: none;
+}
+
+.f-col--12 {
+    width: 100%;
+    flex: none;
+}
+
+.f-col--offset-1 {
+    margin-left: 8.33333%;
+}
+
+.f-col--offset-2 {
+    margin-left: 16.66667%;
+}
+
+.f-col--offset-3 {
+    margin-left: 25%;
+}
+
+.f-col-offset-4 {
+    margin-left: 33.33333%;
+}
+
+.f-col--offset-5 {
+    margin-left: 41.66667%;
+}
+
+.f-col--offset-6 {
+    margin-left: 50%;
+}
+
+.f-col--offset-7 {
+    margin-left: 58.33333%;
+}
+
+.f-col--offset-8 {
+    margin-left: 66.66667%;
+}
+
+.f-col--offset-9 {
+    margin-left: 75%;
+}
+
+.f-col--offset-10 {
+    margin-left: 83.33333%;
+}
+
+.f-col-offset-11 {
+    margin-left: 91.66667%;
+}
+
+.f-col--offset-12 {
+    margin-left: 100%;
+}
+
+/* END Grid classes */
+
+/* BEGIN Spacing classes */
+
+.top-margin--1 {
+    margin-top: 4%;
+}
+
+.top-margin--2 {
+    margin-top: 8%;
+}
+
+.top-margin--3 {
+    margin-top: 12%;
+}
+
+.top-margin--4 {
+    margin-top: 16%;
+}
+
+.top-margin--5 {
+    margin-top: 20%;
+}
+
+/* BEGIN Text classes */
+
+h1 {
+  margin-top: 0;
+  font-size: 3.998rem;
+}
+
+h2 {
+    margin-top: 0;
+    font-size: 2.827rem;
+}
+
+h3 {
+    margin-top: 0;
+    font-size: 1.999rem;
+}
+
+h4 {
+    margin-top: 0;
+    font-size: 1.414rem;
+}
+
+small, .font_small {
+    font-size: 0.707rem;
+}
+
+.seilssans {
+	font-family: SeilsSans, Montserrat, sans-serif;
+	letter-spacing: 0.24rem;
+	/* font-size: 6rem; */
+}
+
+.text--1 {
+    font-size: 0.707em;
+}
+
+.text--2 {
+    font-size: 1em;
+}
+
+.text--3 {
+    font-size: 1.414em;
+}
+
+.text--4 {
+    font-size: 1.999em;
+}
+
+.text--5 {
+    font-size: 2.827em;
+}
+
+.text--eggshell {
+    color: #eee;
+}
+
+/* END Text classes */
+
+/* BEGIN Image classes */
+
+.img-responsive {
+    max-width: 100%;
+    max-height: 450px;
+    width: 450px; 
+    height: auto;
+}
+
+.img--flipped {
+    transform: scaleX(-1);
+    -webkit-transform: scaleX(-1);
+}
+
+.img--background {
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;   
+    z-index: -9999;
+    position: absolute;
+}
+
+/* END Image classes */
+
+/* BEGIN GameGuide Specific CSS */
+
+#intro-section {
+    background-image: url(../images/crystal-background.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+#intro-section::after {
+    content:'';
+        
+}
+
+#gameplay-section {
+    height: 100%;
+    background-image: linear-gradient(180deg, rgba(46, 23, 23, 0.8), rgba(0,0,0,0.1)), url(https://i.imgur.com/chN4Uhy.png);
+    background-repeat: repeat;
+    padding: 20px;
+}
+
+#commanders-section {
+    background-image: url(../images/fissure-map.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 100%;
+    padding: 50px;
+}
+
+.text-container--bronze {
+    padding: 20px 40px;
+    border-radius: 8px;
+    transform: skew(-4deg);
+    border: 5px solid rgba(240, 173, 78, 0.5);
+    background-color: rgba(127, 92, 41, 0.2);
+    background-image: linear-gradient(180deg, rgba(64, 46, 21, 0.8), rgba(64, 46, 21, 0.65), rgba(64,46,21, 0.8));
+    transition: 0.025s filter linear;
+}
+
+.text-container--bronze:hover {
+    /* filter: brightness(130%); */
+}
+
+#doughboy-img {
+    margin-top: -55px;
+}
+
+.font--secondary {
+    /* font-family: 'SecondaryFont', sans-serif; 
+    letter-spacing: 0.08rem; */
+    font-family: 'Teko', sans-serif;
+}
