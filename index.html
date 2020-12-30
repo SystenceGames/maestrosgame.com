@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <!-- Global site tag (gtag.js) - Google Analytics -->
+      <script async src="https://www.googletagmanager.com/gtag/js?id=UA-47292231-6"></script>
+      <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'UA-47292231-6');
+      </script>
+      <title>The Maestros</title>
+      <meta charset="UTF-8">
+      <meta property="og:image" content="http://i.imgur.com/0fLnekn.jpg">
+      <meta property="og:image:secure_url" content="https://i.imgur.com/0fLnekn.jpg">
+      <meta name='viewport' content='width=device-width, initial-scale=1.0'>
+      <link href='./css/bootstrap.min.css' rel='stylesheet'>
+      <link href='./css/index.css' rel='stylesheet'>
+      <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet' type='text/css'>
+      <link href='./css/shared.css' rel='stylesheet' type='text/css'>
+      <script>
+         (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+         (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+         m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+         })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+         ga('create', 'UA-65100825-1', 'auto');
+         ga('send', 'pageview');
+      </script>
+   </head>
+   <body>
+      <div id='top'>
+         <div class='navbar navbar-default navbar-fixed-top'>
+            <div class='container'>
+               <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target=".navbar-collapse" aria-expanded="false" id="threelines">
+               <span class="sr-only">Toggle navigation</span>
+               <span class="icon-bar"></span>
+               <span class="icon-bar"></span>
+               <span class="icon-bar"></span>
+               </button>
+               <a href='/' class='navbar-brand'></a>
+               <img src='./images/rsz_maestroslogo.png' alt="maestros-logo" height="115px" id='mbrand'>
+               <ul class='nav navbar-nav navbar-right collapse navbar-collapse' id="bs-example-navbar-collapse-1">
+                  <li><a href='index.html'>Home</a></li>
+                  <li><a href='signup.html'>Sign Up</a></li>
+                  <li><a href='game.html'>Game</a></li>
+                  <li><a href='./leaderboards/index.html'>Leaderboard</a></li>
+                  <li><a href='media.html'>Media</a></li>
+                  <li>
+                     <a href='#' data-toggle='dropdown' id='about'>About<span class='caret'></span></a>
+                     <ul class='dropdown-menu'>
+                        <li><a href='http://blog.maestrosgame.com'>Dev Blog</a></li>
+                        <li><a href='http://presskit.maestrosgame.com/'>Press Kit</a></li>
+                        <li><a href='team.html'>Team</a></li>
+                     </ul>
+                  </li>
+               </ul>
+               <div id="socialicons" class='text-right'>
+                  <a href="https://www.facebook.com/TheMaestrosGame"><img src="https://i.imgur.com/uNSCaHZ.png" class='socialicon' alt="facebook-icon" /></a>
+                  <a href="https://twitter.com/maestrosgame"><img src="https://i.imgur.com/bavkcqe.png" class='socialicon' alt="twitter-icon" /></a>
+                  <a href="https://www.reddit.com/r/maestrosgame"><img src="https://i.imgur.com/2Et5Udj.png" class='socialicon' alt="reddit-icon" /></a>
+                  <a href="https://discord.gg/VUkvkgY"><img src="https://i.imgur.com/MHl8ssB.png" class='socialicon' alt="discord-icon" /></a>
+                  <a href="https://gamejolt.com/games/the-maestros/75258"><img src="https://i.imgur.com/wiElkhn.png" class='socialicon' alt="gamejolt-icon" /></a>
+                  <a href="https://www.youtube.com/user/maestrosgame"><img src="https://i.imgur.com/lz8y2h0.png" class='socialicon' alt="youtube-icon" /></a>
+                  <a href="https://www.twitch.tv/maestrosgame"><img src="https://i.imgur.com/0iODmuF.png" class='socialicon' alt="twitch-icon" /></a>
+               </div>
+            </div>
+         </div>
+         <div class='container clearfix' id='first'>
+            <div class='page-header'>
+               <div class='text-center'>
+                  <br><br>
+                  <img src='./images/rsz_maestroslogo.png' id='biglogo' class='img-responsive' height='300px' />
+                  <h1 class='seilssans' id='beta-header'>Now in Steam Early Access!</h1>
+                  <a href='https://www.youtube.com/watch?v=Bh0XhF7-4V0' class='btn btn-warning btn-block' id='trailer-btn'><img src='./images/video_icon.png' /><span>Watch the full trailer!</span></a>
+                  <a href="http://store.steampowered.com/app/553560/The_Maestros/" class='btn btn-warning btn-block' id='steam-btn'>
+                    <div style="display:flex; align-items:center; justify-content: space-evenly; flex-direction: row;">
+                      <img src='./images/steam_icon.png' />
+                      <div class="steam-text-wrapper">
+                        <div class="steam-text"><strong>Get on Steam</strong></div>
+                      </div>
+                      <img src='./images/steam_icon.png' class="hidden-img" />
+                    </div>
+                  </a>
+                  <video playsinline autoplay muted loop poster='./images/maestros_trailer_still.png' id='bg-vid'>
+                     <source src='./playtestvideos/maestros_trailer_cut.mp4' type='video/mp4' />
+                </video>
+               </div>
+            </div>
+         </div>
+      </div>
+      <div id='second'>
+         <div class='container-fluid' id="secondc">
+            <div class='top-bufferlg'>
+               <img src='https://i.imgur.com/BItZSO3.png' id='hivelord' class='col-xs-offset-4 col-md-offset-0 col-md-3'/>
+               <div class='col-md-5'>
+                  <h1 class='text-center subsection-header'>Fast-Paced Competitive Gameplay</h1>
+                  <h4 class='text-center subsection-subheader top-bufferx2'>The Maestros is an online multiplayer RTS (real-time strategy) game set in a humorous fantasy world where you control a commander and his squadron of wildy cuddly and mildly vicious minions. You can play as either the dieselpunk Knights of Teutonia with their clunky, transforming robots or as the futuristic Alchemists of Regalis with their adorable, mutating monsters.
+                     You amass minions by killing monster NPCs around the map.
+                  </h4>
+               </div>
+            </div>
+            <img src='https://i.imgur.com/1dnTZXl.png' id='tinker' class='col-xs-offset-4 col-md-offset-0 col-md-5' />
+         </div>
+      </div>
+      <div id='third'>
+         <div class='container-fluid commanders'>
+            <div class='col-md-offset-6 col-md-6 commander' id='commander-top'>
+               <h1 class='subsection-header text-center top-bufferlg'>Unique Commanders to Fit Any Playstyle</h1>
+            </div>
+            <div class='col-md-offset-6 col-md-6 commander'>
+               <h4 class='text-center'>Each commander has special abilities that will help you fight alongside your minions.<br><br>Click one to learn more!</h4>
+            </div>
+            <div class='col-md-offset-0 col-sm-offset-0 text-center commander-icons'>
+               <div class="commander-info">
+                  <img src="https://i.imgur.com/HJ0bCuN.png" id="tmicon" class="commander-icon" data-commander="tinkermeister" />
+               </div>
+               <div class="commander-info">
+                  <img src="https://i.imgur.com/GbXLMGp.png" id="bmicon" class="commander-icon" data-commander="robomeister" />
+               </div>
+               <div class="commander-info">
+                  <img src="https://i.imgur.com/wk99Fge.png" id="rmicon" class="commander-icon" data-commander="blastmeister" />
+               </div>
+            </div>
+            &nbsp;
+            &nbsp;
+            &nbsp;
+            <div class='col-md-offset-0 col-sm-offset-0 text-center commander-icons'>
+               <div class="commander-info">
+                  <img src="https://i.imgur.com/cRChE9q.png" id="smicon" class="commander-icon" data-commander="serpentMaster" />
+               </div>
+               <div class="commander-info">
+                  <img src="https://i.imgur.com/s2HsKSV.png" id="hmicon" class="commander-icon" data-commander="hiveMother" />
+               </div>
+               <div class="commander-info">
+                  <img src="https://i.imgur.com/okHQnmy.png" id="rqicon" class="commander-icon" data-commander="rambamQueen" />
+               </div>
+            </div>
+            <div class="section-bottom"></div>
+         </div>
+      </div>
+      <div id='fourth'>
+         <div class='container'>
+            <div class='top-bufferlg minion-top minion'>
+               <div class='col-md-5 armysection'>
+                  <h1 class='subsection-header'>Amass Your Army...</h1>
+                  <h4 class='subsection-subheader col-lg-offset-1 col-md-offset-0'><br>Kill monster NPCs to add to your army of minions<br><br>Bigger monsters give you more minions<br><br>Monsters spawn continuously</h4>
+               </div>
+               <div>
+                  <img src='https://i.imgur.com/KVQpjOT.gif' class='col-md-offset-1 ani1 top-bufferx2' />
+               </div>
+               <div class='top-bufferx2'>
+                  <div>
+                     <br>
+                     <hr style="width: 200px;">
+                     <h1 class='subsection-header text-center top-bufferlg'>...and Transform!</h1>
+                     <h4 class='subsection-subheader top-bufferx2 text-center'>Direct your minions to transform pads scattered across the map to power them up.<br>Each minion can turn into a variety of forms!</h4>
+                  </div>
+                  <div class='row text-center top-bufferx2'>
+                     <img src='https://i.imgur.com/YZCxbdi.png?1' height='200px' />
+                     <img src='https://i.imgur.com/11zG4aA.png' height='200px' />
+                  </div>
+                  <br>
+                  <hr>
+                  <div class='row text-center'>
+                     <img src='https://i.imgur.com/Qw1yfiQ.png?1' height='200px' />
+                     <img src='https://i.imgur.com/l5d0ypF.png?1' height='200px' />
+                     <img src='https://i.imgur.com/RehJZHu.png?1' height='190px' />
+                     <img src='https://i.imgur.com/XEo11GW.png' height='200px' />
+                     <img src='https://i.imgur.com/WMIBpId.png?1' height='200px' />
+                  </div>
+                  <div class='top-bufferx2'>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+      <div id='fifth'>
+         <div class='container'>
+            <div class='top-bufferlg'>
+               <div class='col-md-offset-7 col-md-5 text-center'>
+                  <h1 class='subsection-header commander'>Crush Your Enemies</h1>
+                  <h4 class='subsection-subheader top-bufferx2 commander'>When you’re all ready to fight, go in there and take out the enemy’s commander!</h4>
+               </div>
+               <div class='col-md-offset-7 col-md-5 top-buffer text-center'>
+                  <img id='headshot' src='https://i.imgur.com/l5az4bd.gif' class='ani2' />
+                  <div class='top-bufferlg'></div>
+               </div>
+            </div>
+         </div>
+      </div>
+      <div id='faq'>
+         <div class='container'>
+            <div class='top-bufferlg minion-top minion'>
+               <h1 class='subsection-header text-center top-bufferlg'>FAQ</h1>
+               <br>
+               <hr>
+               <div class='row top-bufferx2'>
+                  <div id="listContainer">
+                     <ul id="expList">
+                        <li class='question'>
+                           <i class='glyphicon glyphicon-menu-right'> </i>What is this madness?
+                           <ul>
+                              <li>
+                                 <br>Basically, The Maestros is what happens when an FPS momma adopts a weeee little RTS baby and raises it as if it were its own child. You are absolutely controlling a fast-paced, top-down strategy game à la Starcraft, but sometimes you end up with "BOOM HEADSHOT" moments.
+                                 <hr>
+                                 <br>
+                              </li>
+                           </ul>
+                        </li>
+                        <li class='question'>
+                           <i class='glyphicon glyphicon-menu-right'> </i>It looks like a lot of time has gone into The Maestros. What’s the story here?
+                           <ul>
+                              <li>
+                                 <br>Oh, why thank you for noticing, *bats eyelashes* But in all seriousness, this game has been an enormous labor of love for many contributors over numerous years. The Maestros began life as a student project at the University of Southern California. It was majorly inspired by Warcraft 3, and elements of MOBAs as well. From about Sept. 2013 to May 2014, the core of the game was built by a team of students and hobbyists all pitching in what we could and building a fun “first alpha” that we eventually put in front of the public. At the conclusion of the class, most of our core team graduated from their various schools and/or went on to get jobs. We had such a blast making it though, that a handful of us kept plugging away after work every week, hoping some day we could get a finalized version of the game in front of people’s faces with all the awesome stuff we had envisioned. It took almost four more years, but now you can play it for yourself!
+                                 <hr>
+                                 <br>
+                              </li>
+                           </ul>
+                        </li>
+                        <li class='question'>
+                           <i class='glyphicon glyphicon-menu-right'> </i>Can I play on my 12 year old Idaho Potato of a Computer?
+                           <ul>
+                              <li>
+                                 <br>Short answer - probably not. Optimization is usually the last thing that happens in game development. We made some performance improvements though, and you just might be able to squeeze some games out of a pineapple using our “low” graphics settings. We recommend a 1 mbps internet connection, and a modern (&#60;5 year old) nVidia or AMD graphics card.
+                                 <hr>
+                                 <br>
+                              </li>
+                           </ul>
+                        </li>
+                     </ul>
+                  </div>
+               </div>
+            </div>
+            <div class='top-bufferlg'></div>
+         </div>
+      </div>
+      <div id="footer">
+         <div class="container">
+            <div class="text-center top-buffer">
+               <hr style="background-image: linear-gradient(to right, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.75), rgba(255, 255, 255, 0));">
+               <img src="https://i.imgur.com/Zb70y37.png" width="100px" height="100px">
+               <br>
+               <br>
+               <p style="margin-bottom: 15px;">
+                  &copy;<script type="text/javascript">document.write(new Date().getFullYear());</script> Systence Games - All Rights Reserved
+               </p>
+               <small style="display:block; margin-bottom: 25px;">
+                 <a href="./privacypolicy.html" style="color: #aaa;">Privacy Policy</a> <span style="color:#eee">|</span> 
+                 <a href="./termsofservice.html" style="color: #aaa;">Terms of Service</a> <span style="color:#eee">|</span> <a href="./support.html" style="color: #aaa">Support</a>
+               </small>
+            </div>
+         </div>
+      </div>
+      <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js'></script>
+      <script src='./js/bootstrap.min.js'></script>
+      <script src='./js/index.min.js'></script>
+      <script src='./js/website.maestrosgame.min.js'></script>
+      <script src="./js/froogaloop2.min.js"></script>
+   </body>
+</html>
